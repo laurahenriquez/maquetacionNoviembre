@@ -1,0 +1,249 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+/*Declarando header */
+
+.header {
+  height: 150px;
+  background-color: rgb(227, 95, 253);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  height: 314px;
+
+  margin-top: 30px;
+}
+
+.buscador {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: rgb(159, 0, 165);
+  width: 1495px;
+  border-radius: 10px;
+}
+
+.boton {
+  color: #090909;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fc697c;
+  margin-left: 10px;
+}
+.boton-info {
+  color: #090909;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  background: #fc697c;
+  margin-left: 10px;
+}
+
+.txt-salida {
+  color: white;
+  margin-left: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.txt-vuelta {
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.input_text {
+  width: 200px;
+  height: 50px;
+  padding: 20px;
+}
+
+/*Declarando main */
+.text {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+}
+/* Declarando contenedores*/
+.banners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-evenly;
+}
+.banner {
+  /* width: 600px; */
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  display: flex;
+  border-radius: 15px;
+  align-content: center;
+}
+.banner-imagen {
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+}
+.txt1 {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.txt2 {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  text-align: left;
+  color: rgb(255, 250, 250);
+  text-align: left;
+}
+.txt3 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  text-align: left;
+  color: rgb(255, 250, 250);
+  text-align: left;
+}
+.banner2 {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  display: flex;
+  border-radius: 15px;
+  align-content: center;
+  max-height: 400px;
+  transition: 0.4s;
+  border-radius: 15px;
+}
+
+/* .img-zoomcana {
+  max-height: 400px;
+  transition: 0.4s;
+  border-radius: 15px;
+} */
+.txt1-cana {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.txt2-cana {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  text-align: left;
+  color: rgb(255, 250, 250);
+  text-align: left;
+}
+.banner3 {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 15px;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/* .img-zoom {
+  max-height: 400px;
+  transition: 0.4s;
+  border-radius: 15px;
+} */
+.txt1 {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.txt2 {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  text-align: left;
+  color: rgb(255, 250, 250);
+  text-align: left;
+}
+.banner4 {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+/* .img-zoom-escoc {
+  max-height: 400px;
+  transition: 0.4s;
+  border-radius: 15px; */
+/* } */
+.txt1-escoc {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.txt2-escoc {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  text-align: left;
+  color: rgb(255, 250, 250);
+  text-align: left;
+}
+.banner5 {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+/* .img-zoom-roma {
+  max-height: 400px;
+  transition: 0.4s;
+  border-radius: 15px; */
+/* } */
+.txt1-roma {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+.txt2-roma {
+  position: absolute;
+  top: 70px;
+  left: 50px;
+  text-align: left;
+  color: rgb(255, 250, 250);
+  text-align: left;
+}
+.tabla {
+  width: 700px;
+  height: 200px;
+}

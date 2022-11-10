@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viaja por El mundo con Laura</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="contenedor">
+      <header class="header">
+        <img class="logo" src="img/logo.png" />
+      </header>
+
+      <article class="text">
+        <p>Descubre nuestras mejores ofertas</p>
+      </article>
+
+      <!-- CONTENEDOR-->
+      <section class="banners">
+        <!-- ITEMS -->
+        <article class="banner">
+          <img class="banner-imagen" src="img/galicia3.jpg" />
+          <p class="txt1">Galicia</p>
+          <p class="txt2">2 Dias / 1 Noche.</p>
+          <p class="txt3">DESDE: 200€</p>
+        </article>
+
+        <article class="banner">
+          <img class="banner-imagen" src="img/canarias.jpg" />
+          <p class="txt1-cana">Canarias</p>
+          <p class="txt2-cana">5 Dias / 4 Noches.</p>
+          <p class="txt3">DESDE: 400€</p>
+        </article>
+
+        <article class="banner">
+          <img class="banner-imagen" src="img/mallorca.jpg" />
+          <p class="txt1-cana">Mallorca</p>
+          <p class="txt2-cana">3 Dias / 2 Noches.</p>
+          <p class="txt3">DESDE: 400€</p>
+        </article>
+
+        <article class="banner">
+          <img class="banner-imagen" src="img/escociajpg.jpg" />
+          <p class="txt1-escoc">Escocia</p>
+          <p class="txt2-escoc">10 Dias / 9 Noches.</p>
+          <p class="txt3">DESDE: 1.500€</p>
+        </article>
+
+        <article class="banner">
+          <img class="banner-imagen" src="img/roma.jpg" />
+          <p class="txt1-roma">Roma</p>
+          <p class="txt2-roma">3 Dias / 2 Noches.</p>
+          <p class="txt3">DESDE: 700€</p>
+        </article>
+      </section>
+
+      <form class="buscador">
+        <label>Nombre</label>
+        <input
+          type="text"
+          class="input_text"
+          id="nombre"
+          name="nombre"
+          placeholder="NOMBRE"
+        />
+        <label>Origen</label>
+        <input
+          type="text"
+          class="input_text"
+          id="origen"
+          name="origen"
+          placeholder="ORIGEN"
+        />
+        <label>Destino</label>
+        <input
+          type="text"
+          class="input_text"
+          id="destino"
+          name="destino"
+          placeholder="DESTINO"
+        />
+        <label>Nº Personas</label>
+        <input
+          type="number"
+          class="input_text"
+          id="nPersonas"
+          name="nPersonas"
+          placeholder="Nº PERSONAS"
+        />
+        <label>Fecha</label>
+        <input
+          type="date"
+          class="input_text"
+          id="fecha"
+          name="fecha"
+          placeholder="FECHA"
+        />
+        <button onclick="filtro()" class="boton" type="reset">FILTRAR</button>
+        <button onclick="solicitarInformacion()" class="boton" type="reset">SOLICITAR INFORMACIÓN</button>
+      </form>
+      <table class="tabla">
+        <thead>
+        <tr>
+          <th>NOMBRE</th>
+          <th>ORIGEN</th>
+          <th>DESTINO</th>
+          <th>Nº PERSONAS</th>
+          <th>FECHA</th>
+        </tr>
+      </thead>
+      <tbody id="tabla">
+
+      </tbody>
+      </table>
+    </main>
+    <script src="agencia.js"></script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+     width: 100vw;
+     flex-wrap: wrap;
+}
+
+.div601{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.nav511 {
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+    justify-content: space-around;
+    justify-items: center;
+    height: 50px;
+    
+    background-color: black;
+
+}
+.div602{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    background-color: black;
+}
+.div701{
+    display: flex;    
+    margin: 15px;
+    padding: 15px;
+}
+.izq{
+    width: 66%;
+}
+.der{
+    width: 33%;
+}
+.div702{
+    /* display: flex;
+    flex-direction:column;
+    justify-content: center; */
+    
+   /* width: 60%;*/
+
+
+}
+.div703{
+    /* display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 25%; */
+    
+}
+
+.div704{
+    display: flex;
+    flex-direction:column;
+    height: 75%;
+    width: 100%;
+    /* justify-content: center; */
+    
+    
+}
+.div801{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.img1{
+    justify-content: center;
+width: 100%;
+}
+
+.articulo{
+    display: flex;
+    flex-direction:row;
+    height: 93%;
+    width: 100%;
+
+}
+
+
+
+@media screen and (max-width: 875px)
+{
+    .articulo{
+        flex-direction: column;
+    }
+    .der{
+        width: 100%;
+    }
+    .izq{
+        width: 100%;
+    }
+}

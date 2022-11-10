@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.body {
+  background-image: url(fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.menu1 {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.menu__enlaces {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Hind", sans-serif;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+.menu__enlaces:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.form-contact {
+  background-color: black;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact {
+  padding: 0.8rem;
+  overflow: hidden;
+}
+
+.contact label,
+.contact input,
+.contact textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-family: "Hind", sans-serif;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact label {
+  color: white;
+}
+
+.contact label {
+  font-weight: 700;
+}
+
+.contact input,
+.contact textarea {
+  border: none;
+  border-bottom: 2px solid blue;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+.contact textarea {
+  min-height: 100px;
+}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.body {
+  background-image: url(fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main {
+  display: flex;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.menu__enlaces {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: "Hind", sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+.menu__enlaces:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.submenu li a {
+  display: block;
+  font-size: 15px;
+  color: rgb(0, 17, 255);
+  font-family: "Hind", sans-serif;
+  text-decoration: none;
+}
+.caja_txt {
+  width: 650px;
+  height: 400px;
+  margin-top: 150px;
+  margin-left: 60px;
+}
+.p1 {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  font-weight: regular;
+}
+
+.p2 {
+  color: rgb(255, 255, 255);
+  font-family: "Oswald", sans-serif;
+  font-size: 70px;
+  font-weight: regular;
+}
+.p3 {
+  color: rgb(0, 242, 250);
+  font-family: "Oswald", sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+}
+.p4 {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: regular;
+}

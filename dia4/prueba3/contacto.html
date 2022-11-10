@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloContacto.css">
+</head>
+<body>
+<div class="div101">
+    <nav class="nav201">
+            <div class="div301">
+                <a class="div302" href="presentacion.html">Presentación</a>
+            </div>
+            <div class="div301">
+                <a class="div302" href="tecnologias.html">Tecnologías</a>
+            </div>
+            <div class="div301">
+                <a class="div302" href="proyectos.html">Proyectos</a>
+            </div>
+            <div class="div301">
+                <a class="div302" href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+        <div class="div401">
+            <div class="div402">
+                <h1>contacto</h1>
+            </div>
+            <article class="article501">
+                <div class="article__img">
+                    <div class="article__img1">
+                    <img src="contacto1.png" alt="" class="img1">
+                    </div>
+                </div>
+                   <div class="article__text">
+                    <form action="contact.php" method="post"><!--aqui empieza el formulario-->
+                         <div class="elem-group"> 
+                            <label for="name">Nombre</label>
+                             <input type="text" id="name" name="visitor_name" placeholder="Nombre de ejemplo" pattern=[A-Z\sa-z]{3,20} required> 
+                            </div> 
+                            <div class="elem-group">
+                                 <label for="email">Correo electrónico</label>
+                                  <input type="email" id="email" name="visitor_email" placeholder="ejemplo@email.com" required>
+                                 </div> 
+                                 <div class="elem-group">
+                                     <label for="department-selection">Área a contactar</label>
+                                      <select id="department-selection" name="concerned_department" required> 
+                                        <option value="">Selecciona un área</option> 
+                                        <option value="billing">Facturación</option>
+                                         <option value="marketing">Marketing</option> 
+                                         <option value="technical support">Servicio al cliente</option>
+                                         </select> </div> <div class="elem-group"> <label for="title">Motivo de contacto</label> 
+                                            <input type="text" id="title" name="email_title" required placeholder="Problema/Consulta" pattern=[A-Za-z0-9\s]{8,60}> 
+                                        </div> 
+                                        <div class="elem-group"> 
+                                            <label for="message">Solicitud</label> 
+                        <textarea id="message" name="visitor_message" placeholder="Escribe tu mensaje aquí." required>
+
+                    </textarea> 
+                    </div> 
+                        <button type="submit">Enviar mensaje</button></form>
+                    </div> <!--aqui termina el formulario-->
+         </article>
+         <article class="article501">
+            <div class="article__img">
+                <div class="article__img1">
+                <img src="contacto2.png" alt="" class="img1">
+                </div>
+            </div>
+               <div class="article__text">
+                   <p class="text">Telefono: 50112600</p>
+                   <br>
+                <p class="text">Correo: lauriña@programer.com</p>
+                <br>
+                <p class="text">Direccion: España</p>
+                <br>
+                <p class="text">paguina web: lauriña.programer</p>
+                <br>
+                <p class="text">gracias por estar aqui! :)</p>
+                </div>
+     </article>
+        </div>
+</div>
+    
+</body>
+</html>

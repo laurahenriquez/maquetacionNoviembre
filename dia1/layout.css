@@ -1,0 +1,55 @@
+* {
+  border-radius: 10px;
+  margin: 20px;
+}
+.myclassBODY {
+  border: 10px solid rgba(235, 217, 227, 0.767);
+}
+.myclassHEADER {
+  border: 10px solid rgba(47, 255, 186, 0.774);
+}
+
+.myclassARTICLE {
+  border: 10px solid rgba(0, 183, 255, 0.849);
+  height: 500px;
+}
+
+.myclassNAV {
+  border: 10px solid palevioletred;
+}
+
+.myclassDIV {
+  font-size: 20px;
+  border: 10px solid rgba(255, 174, 0, 0.979);
+  top: 275px;
+  right: 75px;
+  height: 500px;
+}
+
+.myclassASIDE {
+  border: 5px solid rgba(0, 238, 255, 0.767);
+}
+
+.myclassSECTION {
+  border: 5px solid rgba(200, 132, 231, 0.897);
+}
+
+.myclassFOOTER {
+  border: 5px solid rgba(251, 255, 0, 0.849);
+}
+.flex-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.flex-container > div {
+  text-align: center;
+}
+
+.flex-glow {
+  flex-grow: 5;
+}
+
+.flex-glow2 {
+  flex-grow: 4;
+}

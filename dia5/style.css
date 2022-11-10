@@ -68,13 +68,35 @@ main{
         padding-bottom: 20px;
     }
    
+
+
+.img_instagram{
+    margin-left: 0px;
+}
 .usuario{
     font-size: small;
     
     color:black
     
 }
-.estilo {
+
+.div_usuario{
+    margin-left: 10px;
+    margin-right:28px ;
+}
+
+.div_botones{
+    align-items: center;
+}
+.div_contraseña{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.div_o{
+    margin-left: 95px;
+
+}
+.div_entrar {
     width: 70%;
     height: 35px;
     background-color: rgb(68, 141, 237);
@@ -82,6 +104,12 @@ main{
     border-radius: 5px;
     border-color: grey;
     text-align: center;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.div_facebook{
+    margin-left: 15px;
 }
     .linea_formulario{
         display: flex;
@@ -103,7 +131,7 @@ main{
         width: 100%;
         height: 50px;
         background-color: #FFFFFF;
-        border: 1px solid rgb(178, 178, 178);
+       
         padding-top: 30px;
         padding-bottom: 30px;
     }

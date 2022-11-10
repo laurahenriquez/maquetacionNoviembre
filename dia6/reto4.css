@@ -1,0 +1,101 @@
+
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "hd hd img"
+    "aside cont cont"
+    "aside cont cont"
+    "aside cont cont"
+    "aside cont cont"
+    "ft ft ft";
+}
+
+.header{
+    background-color:rgb(152, 55, 6);
+    grid-area: hd;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 11px;
+}
+
+.imagen{
+    background-color:rgb(70, 16, 16);
+    grid-area: img;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 11px;
+}
+
+.aside_cont{
+    background-color:rgb(247 123 4);
+    color: rgb(247 123 4);
+    grid-area: aside;
+    display: grid;
+    grid-template-areas: 
+    "aside1"
+    "..."
+    "aside2";
+}
+
+.aside1{
+  background-color: white;
+  grid-area: aside1;
+  margin: 11px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+  
+    
+.aside2{
+  background-color: white;
+  grid-area: aside2;
+  margin: 11px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.contenido_padre{
+    background-color: #f65004;
+    color:white;
+    grid-area:cont;
+    display: grid;
+    grid-template-areas: 
+    "contenido"
+    "tex";
+}   
+
+.contenido{
+   border: 2px solid white;
+   grid-area:contenido;
+   margin: 15px;
+   margin-bottom: 5px;
+   text-align: center;
+   font-weight: bold;
+   padding: 10px;
+}
+
+.texto{
+    border: 2px solid white;
+    grid-area:tex;
+    margin: 15px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.footer{
+    background-color:rgb(70, 16, 16);
+    grid-area:ft;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: [vertical0] 1fr [vertical1] 1fr [vertical2] 1fr [vertical3] 1fr [vertical4] 1fr [vertical5] 1fr [vertical6] 1fr [vertical7] 1fr [vertical8] 1fr [vertical9] 1fr [vertical10];
+    grid-template-rows: [horizontal0] 1fr [horizontal1] 1fr [horizontal2] 1fr [horizontal3] 1fr [horizontal4] 1fr [horizontal5] 1fr [horizontal6] 1fr [horizontal7] 1fr [horizontal8] 1fr [horizontal9] 1fr [horizontal10];
+
+}
+
+.header{
+    background-color: black;
+    grid-column: vertical0/vertical10;
+    grid-row: horizontal0/horizontal1;
+    color: white ;
+    text-align: center;
+}
+   
+.section1{
+    display:grid;
+    background-color: #0080ffdf;
+    grid-column: vertical0/vertical8;
+    grid-row: horizontal1/horizontal9;
+    color: white;
+    grid-template-columns: [vertical0] 1fr [vertical1] 1fr [vertical2] 1fr [vertical3] 1fr [vertical4] 1fr [vertical5] 1fr [vertical6];
+    grid-template-rows: [horizontal0] 1fr [horizontal1] 1fr [horizontal2] 1fr [horizontal3];
+
+}
+
+.contenido{
+    border: 2px solid white;
+    grid-column: vertical0/vertical6;
+    grid-row: horizontal0/horizontal1;
+    margin: 11px;
+    margin-bottom: 2px;
+    padding: 10px;
+ }
+
+.texto1{
+   border: 2px solid white;
+    grid-column: vertical0/vertical3;
+    grid-row: horizontal1/horizontal3;
+    margin: 11px;
+    padding: 10px;
+}
+
+.texto2{
+    border: 2px solid white;
+    grid-column: vertical3/vertical6;
+    grid-row: horizontal1/horizontal3;
+    margin: 11px;
+    margin-left:5px ;
+    padding: 10px;
+}
+
+.sectionMenu{
+    display: flex;
+    
+    background-color: rgb(64, 224, 131);
+    grid-column: vertical8/vertical10;
+    grid-row: horizontal1/horizontal9;
+
+    display: grid;
+    grid-gap: 5px;
+    grid-row-gap: 5px;
+    grid-template-columns: [vertical0] 1fr [vertical1] 1fr [vertical2] 1fr [vertical3] 1fr [vertical4];
+    grid-template-rows: [horizontal0] 1fr [horizontal1] 1fr [horizontal2] 1fr [horizontal3] 1fr [horizontal4];
+
+}
+
+.menu{
+    grid-column: vertical0/vertical4;
+    grid-row: horizontal0/horizontal1;
+    border: 2px solid black;
+    padding-top: 7px;
+    text-align: center;
+    font-size:  40px; ;
+    color: white;
+    margin: 7px ;
+    margin-bottom: 2px;
+}
+
+.menu1{
+    grid-column: vertical0/vertical4;
+    grid-row: horizontal1/horizontal2;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin: 7px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.menu2{
+    grid-column: vertical0/vertical4;
+    grid-row: horizontal2/horizontal3;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin: 7px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.menu3{
+    grid-column: vertical0/vertical4;
+    grid-row: horizontal3/horizontal4;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    margin: 7px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    padding-top: 7px;
+    text-align: center;
+}
+
+.section2{
+    display: grid;
+    background-color: purple;
+    grid-column: vertical0/vertical10;
+    grid-row: horizontal9/horizontal10;
+    grid-template-columns: [vertical0] 1fr [vertical1] 1fr [vertical2];
+    grid-template-rows: [horizontal0] 1fr [horizontal1] 1fr [horizontal2];
+}
+
+.footer{
+    background-color: purple;
+    grid-column: vertical0/vertical1;
+    grid-row: horizontal0/horizontal2;
+    border: 2px solid black;
+    text-align: center;
+    margin: 6px;
+    margin-bottom: 1px;
+    color: white;
+    padding: 30px;
+}
+
+.contact{
+    background-color: purple;
+    grid-column: vertical1/vertical2;
+    grid-row: horizontal0/horizontal2;
+    border: 2px solid black;
+    text-align: center;
+    margin: 6px;
+    margin-bottom: 1px;
+    color: white;
+    padding: 30px;
+}
